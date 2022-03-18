@@ -1,0 +1,58 @@
+.leftBoxes{
+    margin-top: 95px;
+    height: 87vh !important;
+    width: 280px;
+    overflow-y: scroll;
+    margin-left: 10px;
+    display: inline-block;
+    position:fixed;
+}
+
+.leftBoxes::-webkit-scrollbar {
+    width: 1px;
+  }
+   
+  .leftBoxes::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  .leftBoxes::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+
+.newsFeed{
+    border-radius: 20px;
+    background-color: pink;
+    width: 270px;
+    height: 46vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.newsFeed_topDiv{
+    border-radius: 20px 20px 0 0px;
+    padding-top: 8px;
+    height : 29px;
+    width: 100%;
+    background-color: red;
+}
+
+.icon_withName{
+    display: flex;
+    height: 45px;
+    background-color: aquamarine;
+    padding: 12px 15px;
+    flex-direction: row;
+    align-items: center;
+}
+
+#icon_name{
+    margin-left: 10px;
+}
+
+#icons{
+height: 45px;
+width: 45px;
+background-color: bisque;
+}

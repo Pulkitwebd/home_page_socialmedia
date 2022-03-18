@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.Navbar {
+  display: flex;
+  height: 13vh;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.281);
+  position: fixed;
+}
+
+.logo {
+  height: 100%;
+  flex: 4;
+  min-width: 280px;
+  background-color: red;
+}
+
+.searchBox {
+  flex: 6;
+  min-width: 350px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoBox {
+  flex: 12;
+  background-color: pink;
+  display: flex;
+}
+.leftSideLogo {
+  flex: 6;
+  background-color: antiquewhite;
+}
+.rightSideLogo {
+  flex: 6;
+  background-color: aqua;
+}
+
+
+
+/* 1200 */
+
+/* 990 */
+
+@media only screen and (min-width: 0px) and (max-width: 1200px) {
+  .Navbar {
+    height: 63px;
+    width: 100%;
+    background-color: red;
+  }
+}
+ @media only screen and (max-width: 990px)  {
+     .leftSideLogo {
+       flex: 0;
+       background-color: antiquewhite;
+     }
+    .rightSideLogo {
+        flex: 12;
+        background-color: aqua;
+      } 
+} 

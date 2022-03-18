@@ -1,0 +1,471 @@
+.NewsFeedFriendRequestBox {
+  background-color: #f5f5f5;
+  height: 100%;
+  width: 84.3vw;
+  display: flex;
+  flex-direction: row;
+  margin-left: 290px;
+  margin-top: 13vh;
+}
+
+.newsFeedBox {
+  width: 50vw;
+  height: 100%;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reelsCards {
+  margin-top: 3vh;
+  height: 30vh;
+  width: 90%;
+  background-color: azure;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cards {
+  width: 200px;
+  height: 27vh;
+  background-color: beige;
+  margin: 0 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#personImg {
+  height: 7vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#personName {
+  height: 6vh;
+  width: 100%;
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  height: 100%;
+  width: 35%;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.friendRequestBox {
+  /* width: 30vw; */
+  height: 100%;
+  background-color: burlywood;
+}
+.createPost {
+  margin-top: 3vh;
+  height: 33vh;
+  width: 90%;
+  background-color: rgb(32, 90, 90);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* justify-content: center; */
+  align-items: center;
+}
+.createPostHeader {
+  /* height: 10vh; */
+  flex: 2;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.iconswithnamecreatepost {
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+
+.createPostLogo {
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.createPostTextBox {
+  background-color: rgb(64, 146, 240);
+  flex: 3;
+  width: 100%;
+}
+
+.createPostBottomLogoPart {
+  background-color: rgb(177, 177, 101);
+  width: 100%;
+  flex: 1.5;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.createPostTextBox1 {
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: none;
+}
+
+.bottomLogos {
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 40px !important;
+  width: 40px !important;
+  background-color: yellow;
+}
+.threeDotsBox {
+  position: relative;
+  right: 0px;
+  margin-left: 26vw;
+  margin-right: 20px;
+}
+.threeDots {
+  position: relative;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: yellow;
+}
+
+.PostBox {
+  margin-top: 20px;
+  border-radius: 15px;
+  height: 85vh;
+  width: 90%;
+  background-color: white;
+}
+
+.postBoxHeader {
+  border-radius: 15px;
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.postBoxHeaderLogoAndName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.postBoxHeaderLogo {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: beige;
+  margin-left: 20px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+.user7img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+}
+.nameAndTime {
+  display: flex;
+  flex-direction: column;
+}
+.postPersonName {
+  font-weight: 700 !important;
+  color: #212529 !important;
+  font-size: 16px !important;
+}
+
+.postBoxHeaderThreeDotsBox {
+  height: 100%;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.postBoxHeaderThreeDots {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.textPartBox {
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.textpart {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #adb5bd;
+  font-weight: 500 !important;
+}
+
+.postBtn {
+  border: none;
+  background: none;
+  color: #1e74fd;
+  margin-left: 10px;
+  font-size: medium;
+  font-size: 15px !important;
+  line-height: 26px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.postImgBox {
+  overflow: hidden;
+  height: 55vh;
+  width: 94%;
+  margin-left: 20px;
+  margin-right: 20px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.postImg {
+  object-fit: cover;
+  height: 55vh;
+  width: 100%;
+}
+
+.postBottomBox {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomIcon {
+  border-radius: 50%;
+  margin-left: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.thumbIcon {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 3px;
+  margin-right: 5px;
+}
+.heartIcon {
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  padding: 3px;
+}
+.liketext {
+  margin-left: 10px;
+  color: black;
+}
+.chatIcon {
+  margin-left: 20px;
+}
+.commentIcon {
+  color: black;
+}
+.commentText {
+  color: black;
+  margin-left: 10px;
+}
+.shareIcon {
+  margin-right: 20px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sharetext {
+  margin-left: 10px;
+  color: black;
+}
+
+.postBox2 {
+  margin-top: 20px;
+  border-radius: 15px;
+  /* height: 85vh; */
+  width: 90%;
+  background-color: white;
+}
+
+.postBox3 {
+  margin-top: 20px;
+  border-radius: 15px;
+  /* height: 85vh; */
+  width: 90%;
+  background-color: white;
+}
+
+.postVideoPartBox {
+  width: 100%;
+  height: 50vh;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  object-fit: cover;
+}
+.postVideoPart {
+  margin: 0 20px 0 20px;
+  width: 100%;
+  height: 50vh;
+  background-color: #212529;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.postactualVideoPart {
+  /* margin: 0 20px 0 20px; */
+  width: 100%;
+  height: 50vh;
+  background-color: #212529;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.LiveCardsBox {
+  width: 95%;
+  height: 35vh;
+  background-color: #f5f5f5;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LiveCards {
+  border-radius: 10px;
+  height: 100%;
+  width: 30%;
+  margin: 0 5px 0 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.LiveCardTop {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  flex: 2.5;
+  background-color: #f5f5f5 !important;
+}
+.LiveCardbackground {
+  border-radius: 10px 10px 0 0;
+  height: 13.46vh;
+  width: 100%;
+  overflow: hidden;
+  background-size: auto;
+}
+
+.LiveCardBottom {
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  flex: 4;
+  background-color: antiquewhite;
+  display: flex;
+  /* justify-content: center; */
+  padding-top: 20px;
+  align-items: center;
+  flex-direction: column;
+}
+.LiveCardBtn {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 5px;
+}
+.LiveCardsEmail {
+  margin-top: 20px;
+}
+
+.followCardsBox{
+    margin-top: 20px;
+    height: 33vh;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.followCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.followCardLogo{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.followCardName{
+    margin-top: 20px;
+    color: #111111;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+
+.FollowCardBtn{
+    margin-top: 20px;
+    background-color: #10d876;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.LoadingBox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    width: 90%;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading{
+    color: blue;
+    width: 50px;
+}
