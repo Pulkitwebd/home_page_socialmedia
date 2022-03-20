@@ -1,48 +1,49 @@
-.NewsFeedFriendRequestBox {
-  background-color: #f5f5f5;
-  height: 100%;
-  width: 84.3vw;
-  display: flex;
-  flex-direction: row;
-  margin-left: 290px;
-  margin-top: 13vh;
-}
-
 .newsFeedBox {
-  width: 50vw;
-  height: 100%;
+  margin-top: 13vh;
   background-color: #f5f5f5;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .newsFeedBox {
+    margin-left: 0vw;
+    width: 100vw;
+    height: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .reelsCards {
   margin-top: 3vh;
   height: 30vh;
   width: 90%;
-  background-color: azure;
   display: flex;
   flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 #cards {
-  width: 200px;
+  width: 230px;
   height: 27vh;
-  background-color: beige;
+  background-color: #343a40;
   margin: 0 10px 0 10px;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  border-radius: 10px;
 }
 
 #personImg {
   height: 7vh;
   width: 100%;
-  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +51,6 @@
 #personName {
   height: 6vh;
   width: 100%;
-  background-color: royalblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,21 +58,23 @@
 
 #logo {
   height: 100%;
-  width: 35%;
+  width: 42%;
   border-radius: 50%;
-  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .friendRequestBox {
-  /* width: 30vw; */
+  /* width: 30vw */
   height: 100%;
-  background-color: burlywood;
 }
 .createPost {
+  border-radius: 10px;
+  background-color: white;
   margin-top: 3vh;
   height: 33vh;
   width: 90%;
-  background-color: rgb(32, 90, 90);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -83,7 +85,6 @@
   /* height: 10vh; */
   flex: 2;
   width: 100%;
-  background-color: red;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -92,11 +93,15 @@
   /* background-color: aquamarine; */
   display: flex;
   align-items: center;
-  width: 120px;
+  width: 160px;
 }
 
 .createPostLogo {
-  background-color: rebeccapurple;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+  color : #1E74FD;
+  align-items: center;
   border-radius: 50%;
   height: 40px;
   width: 40px;
@@ -105,13 +110,11 @@
 }
 
 .createPostTextBox {
-  background-color: rgb(64, 146, 240);
   flex: 3;
   width: 100%;
 }
 
 .createPostBottomLogoPart {
-  background-color: rgb(177, 177, 101);
   width: 100%;
   flex: 1.5;
   display: flex;
@@ -127,11 +130,13 @@
 
 .bottomLogos {
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 20px;
   margin-right: 10px;
   height: 40px !important;
   width: 40px !important;
-  background-color: yellow;
 }
 .threeDotsBox {
   position: relative;
@@ -410,62 +415,62 @@
   margin-top: 20px;
 }
 
-.followCardsBox{
-    margin-top: 20px;
-    height: 33vh;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.followCardsBox {
+  margin-top: 20px;
+  height: 33vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.followCard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-    width: 25%;
-    background-color: white;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 10px;
+.followCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
 }
 
-.followCardLogo{
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
+.followCardLogo {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
 
-.followCardName{
-    margin-top: 20px;
-    color: #111111;
-    font-size: 15px !important;
-    font-weight: 700 !important;
+.followCardName {
+  margin-top: 20px;
+  color: #111111;
+  font-size: 15px !important;
+  font-weight: 700 !important;
 }
 
-.FollowCardBtn{
-    margin-top: 20px;
-    background-color: #10d876;
-    color: white;
-    padding: 10px 20px 10px 20px;
-    border-radius: 30px;
-    border: none;
+.FollowCardBtn {
+  margin-top: 20px;
+  background-color: #10d876;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  border: none;
 }
 
-.LoadingBox{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    width: 90%;
-    height: 10vh;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.LoadingBox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  width: 90%;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.loading{
-    color: blue;
-    width: 50px;
+.loading {
+  color: blue;
+  width: 50px;
 }

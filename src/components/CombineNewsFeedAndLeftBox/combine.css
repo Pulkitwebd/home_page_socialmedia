@@ -1,6 +1,14 @@
 .Combine{
     display: flex;
     flex-direction: row;
-    background-color: aqua;
     height: auto;
 }
+
+@media only screen and (max-width: 900px)  {
+    .leftbox1 {
+      flex: 0;
+    }
+    .rightbox{
+     flex: 12;
+    }
+} 
