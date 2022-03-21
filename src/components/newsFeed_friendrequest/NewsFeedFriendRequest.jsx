@@ -1,23 +1,24 @@
 import React from "react";
-import personImg from "../Asset/t-10.jpg";
-import user7 from "../Asset/user-7.png";
+import personImg from "../../Asset/t-10.jpg";
+import user7 from "../../Asset/user-7.png";
 import "./thisFolderCss.css";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import video from "../Asset/v-2.ogg";
-import backgroundImg from "../Asset/u-bg.jpg";
-import img2 from "../Asset/user-8.png";
-import img4 from "../Asset/user-4.png";
-import img5 from "../Asset/user-3.png";
-import img6 from "../Asset/user-2.png";
-import bgImg1 from "../Asset/s-1.jpg";
+import video from "../../Asset/v-2.ogg";
+import backgroundImg from "../../Asset/u-bg.jpg";
+import img2 from "../../Asset/user-8.png";
+import img4 from "../../Asset/user-4.png";
+import img5 from "../../Asset/user-3.png";
+import img6 from "../../Asset/user-2.png";
+import bgImg1 from "../../Asset/s-1.jpg";
 import BorderColorOutlinedIcon from "@mui/icons-material/BorderColorOutlined";
 import VideocamOutlinedIcon from "@mui/icons-material/VideocamOutlined";
 import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternateOutlined';
 import CameraAltOutlinedIcon from '@mui/icons-material/CameraAltOutlined';
+import AddCircleOutlineRoundedIcon from '@mui/icons-material/AddCircleOutlineRounded';
 
 const NewsFeedFriendRequest = () => {
   return (
@@ -27,7 +28,9 @@ const NewsFeedFriendRequest = () => {
         <div className="reelsCards">
           <div id="cards">
             <div id="personImg">
-              <div id="logo"></div>
+              <div id="logo">
+                <AddCircleOutlineRoundedIcon className="addicon"/>
+              </div>
             </div>
             <div id="personName">Add Story</div>
           </div>
@@ -154,9 +157,9 @@ export const Cards = () => {
       {CardsData.map((data, index) => {
         return (
           <>
-            <div
+            <div key={index}
               id="cards"
-              style={{ backgroundImage: "url{" + data.bgImg + "}" }}
+              className="CardsbackGroundImg"
             >
               <div id="personImg">
                 <div id="logo">

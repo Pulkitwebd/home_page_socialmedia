@@ -6,7 +6,7 @@
   display: flex;
   height: 13vh;
   width: 100%;
-  background-color: rgba(255, 0, 0, 0.281);
+  background-color: white;
   position: fixed;
 }
 
@@ -20,23 +20,21 @@
   align-items: center;
 }
 
-.firstImgBox{
+.firstImgBox {
   margin-right: 20px;
   margin-left: 20px;
-  
 }
-.firstImg{
- color: #10d876;
- height: 50px;
- 
+.firstImg {
+  color: #10d876;
+  height: 50px;
 }
-.secongImg{
+.secongImg {
   font-size: 32px;
   line-height: 90px;
   color: #0055ff;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: Fredoka One,cursive;
+  font-family: Fredoka One, cursive;
   cursor: pointer;
 }
 
@@ -51,7 +49,7 @@
 
 .logoBox {
   flex: 12;
-  background-color: pink;
+  background-color: white;
   display: flex;
 }
 .leftSideLogo {
@@ -62,7 +60,7 @@
   align-items: center;
 }
 
-.logocss{
+.logocss {
   height: 100%;
   width: 20%;
   display: flex;
@@ -70,15 +68,15 @@
   align-items: center;
 }
 
-.logostylingactive{
+.logostylingactive {
   padding: 10px;
-  color: #1E74FD !important;
+  color: #1e74fd !important;
   background-color: #d2e3ff !important;
   border-color: #bcd5fe !important;
   border-radius: 50%;
 }
 
-.logostyling{
+.logostyling {
   padding: 10px;
   color: rgba(128, 128, 128, 0.603) !important;
   background-color: #f5f5f5 !important;
@@ -92,17 +90,22 @@
   align-items: center;
 }
 
-.RSlogoStyle{
-width: 13%;
-height: 100%;
-background-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-color:#0055ff;
+.RSlogoStyle {
+  width: 13%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0055ff;
 }
-
-
+.TBIconview{
+    padding: 0px;
+    background-color: white;
+    color: white;
+    border-radius: 0%;
+    
+}
 
 /* 1200 */
 
@@ -112,16 +115,43 @@ color:#0055ff;
   .Navbar {
     height: 63px;
     width: 100%;
-    background-color: red;
+    background-color: white;
   }
 }
- @media only screen and (max-width: 990px)  {
-     .leftSideLogo {
-       flex: 0;
-       background-color: white;
-     }
-    .rightSideLogo {
-        flex: 12;
-        background-color: aqua;
-      } 
-} 
+@media only screen and (min-width: 0px) and (max-width: 990px) {
+  .searchBox {
+    display: none;
+  }
+  .rightSideLogo {
+    flex: 0;
+  }
+  .leftSideLogo {
+    display: none;
+  }
+  .RSlogoStyle {
+    display: none;
+  }
+  .tabletviewRightSideLogos {
+    flex: 8;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .TVIcons {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .TBIconview {
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: rgb(88, 84, 84);
+    border-radius: 50%;
+  }
+}

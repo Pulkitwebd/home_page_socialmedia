@@ -11,9 +11,11 @@ import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined
 import ShoppingBagOutlinedIcon from "@mui/icons-material/ShoppingBagOutlined";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
-import PersonIcon from '@mui/icons-material/Person';
-
+import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
+import PersonIcon from "@mui/icons-material/Person";
+import ChatBubbleOutlineRoundedIcon from "@mui/icons-material/ChatBubbleOutlineRounded";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Navbar = () => {
   const Search = styled("div")(({ theme }) => ({
@@ -65,7 +67,7 @@ const Navbar = () => {
   }));
   return (
     <>
-      <header className="Navbar">
+      <header className="Navbar Navbar2">
         <div className="logo">
           <div className="firstImgBox">
             <img src={lightning} className="firstImg"></img>
@@ -85,7 +87,49 @@ const Navbar = () => {
           </Search>
         </div>
         <div className="logoBox">
-          <div className="leftSideLogo">
+         <LeftSideLogo/>
+          <div className="rightSideLogo">
+            <div className="RSlogoStyle">
+              <NotificationsNoneOutlinedIcon />
+            </div>
+            <div className="RSlogoStyle">
+              <ChatBubbleOutlineOutlinedIcon />
+            </div>
+            <div className="RSlogoStyle">
+              <DarkModeOutlinedIcon />
+            </div>
+            <div className="RSlogoStyle">
+              <PersonIcon />
+            </div>
+          </div>
+          <div className="tabletviewRightSideLogos">
+            <div className="TVIcons">
+              <ChatBubbleOutlineRoundedIcon className="TBIconview"/>
+            </div>
+            <div className="TVIcons">
+              <VideocamOutlinedIcon className="TBIconview"/>
+            </div>
+            <div className="TVIcons">
+              <SearchOutlinedIcon className="TBIconview"/>
+            </div>
+            <div className="TVIcons">
+              <MenuIcon className="TBIconview" />
+            </div>
+          </div>
+        </div>
+      </header>
+    </>
+  );
+};
+
+
+
+export default Navbar;
+
+export const LeftSideLogo = () => {
+  return (
+    <>
+        <div className="leftSideLogo">
             <div className="logocss">
               <HomeOutlinedIcon className="logostylingactive" />
             </div>
@@ -102,24 +146,6 @@ const Navbar = () => {
               <ShoppingBagOutlinedIcon className="logostyling" />
             </div>
           </div>
-          <div className="rightSideLogo">
-            <div className="RSlogoStyle">
-              <NotificationsNoneOutlinedIcon />
-            </div>
-            <div className="RSlogoStyle">
-              <ChatBubbleOutlineOutlinedIcon />
-            </div>
-            <div className="RSlogoStyle">
-              <DarkModeOutlinedIcon/>
-            </div>
-            <div className="RSlogoStyle">
-              <PersonIcon/>
-            </div>
-          </div>
-        </div>
-      </header>
     </>
-  );
-};
-
-export default Navbar;
+  )
+}

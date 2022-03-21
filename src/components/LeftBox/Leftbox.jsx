@@ -17,32 +17,45 @@ const Leftbox = () => {
             </div>
           </div>
           <div className="icon_withName">
-            <div >
-              <DesktopWindowsOutlinedIcon  style={{ backgroundColor :' #0575e6', color : "white", padding:"10px", borderRadius :"50%" }} />
+            <div>
+              <DesktopWindowsOutlinedIcon
+                className="icon_withNameLogo"
+                style={{ backgroundColor: " #0575e6" }}
+              />
             </div>
             <div id="icon_name">Newsfeed</div>
           </div>
           <div className="icon_withName">
             <div id="icons">
-              <MilitaryTechRoundedIcon style={{ backgroundColor :' #e44d26', color : "white",padding:"10px", borderRadius :"50%" }}/>
+              <MilitaryTechRoundedIcon
+              className="icon_withNameLogo"
+                style={{ backgroundColor: " #e44d26" }}
+              />
             </div>
             <div id="icon_name">Badges</div>
           </div>
           <div className="icon_withName">
             <div id="icons">
-              <LanguageIcon />
+              <LanguageIcon style={{ backgroundColor: "#f2c94c" }}
+              className="icon_withNameLogo" />
             </div>
             <div id="icon_name">Explore Stories</div>
           </div>
           <div className="icon_withName">
             <div id="icons">
-              <ElectricBoltIcon />
+              <ElectricBoltIcon 
+                className="icon_withNameLogo"
+                style={{ backgroundColor: "#ee0979" }}
+              />
             </div>
             <div id="icon_name">Popular Gropus</div>
           </div>
           <div className="icon_withName">
             <div id="icons">
-              <PersonOutlineIcon />
+              <PersonOutlineIcon 
+                className="icon_withNameLogo"
+                style={{ backgroundColor: "#1E74FD" }}
+              />
             </div>
             <div id="icon_name">Author Profile</div>
           </div>
@@ -51,7 +64,7 @@ const Leftbox = () => {
         <div className="newsFeed">
           <div className="newsFeed_topDiv">
             <div style={{ marginLeft: "20px", color: "#ADB5BD" }}>
-              News Feeds
+            More Pages
             </div>
           </div>
           <IconandName />
@@ -63,7 +76,7 @@ const Leftbox = () => {
         <div className="newsFeed">
           <div className="newsFeed_topDiv">
             <div style={{ marginLeft: "20px", color: "#ADB5BD" }}>
-              News Feeds
+             account
             </div>
           </div>
           <IconandName />
@@ -82,9 +95,14 @@ export const IconandName = () => {
   return (
     <>
       <div className="icon_withName">
-        <div id="icons"></div>
-        <div id="icon_name"> Name</div>
-      </div>
+            <div id="icons">
+              <PersonOutlineIcon 
+                className="icon_withNameLogo"
+                style={{ backgroundColor: " #1E74FD" }}
+              />
+            </div>
+            <div id="icon_name">Name</div>
+          </div>
     </>
   );
 };

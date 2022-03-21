@@ -91,7 +91,7 @@
    margin-right: 5px;
    cursor: pointer;
    color : white;
-   padding: 10px 30px;
+   padding: 0.7vw 1.3vw;
    border-radius: 20px;
 }
 .FRDeleteBtn{
@@ -100,7 +100,7 @@
    background-color: #F5f5f5;
    cursor: pointer;
    color : #3a3a40;
-   padding: 10px 30px;
+   padding: 0.7vw 1.3vw;
    border-radius: 20px;
 }
 

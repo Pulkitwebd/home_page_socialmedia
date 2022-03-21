@@ -54,6 +54,11 @@
   flex-direction: row;
   align-items: center;
 }
+.icon_withNameLogo{
+  color : white;
+  padding:10px;
+   border-radius : 50%
+}
 
 #icon_name {
   margin-left: 20px;

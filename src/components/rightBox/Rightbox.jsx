@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./rightBox.css";
 import ArrowForwardIosRoundedIcon from "@mui/icons-material/ArrowForwardIosRounded";
-import img1 from "../Asset/user-7.png";
-import img2 from "../Asset/user-8.png";
-import img3 from "../Asset/user-12.png";
-import img4 from "../Asset/user-4.png";
-import img5 from "../Asset/user-3.png";
-import img6 from "../Asset/user-2.png";
-import g2 from "../Asset/g-2.jpg";
-import photoimg from "../Asset/e-1.jpg";
+import img1 from "../../Asset/user-7.png";
+import img2 from "../../Asset/user-8.png";
+import img3 from "../../Asset/user-12.png";
+import img4 from "../../Asset/user-4.png";
+import img5 from "../../Asset/user-3.png";
+import img6 from "../../Asset/user-2.png";
+import g2 from "../../Asset/g-2.jpg";
+import photoimg from "../../Asset/e-1.jpg";
 
 const Rightbox = () => {
   return (
